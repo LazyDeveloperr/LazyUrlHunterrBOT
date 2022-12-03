@@ -1,0 +1,61 @@
+{
+    "name": "LazyUrlHunterrBOT",
+    "description": "LazyUrlHunterrBOT",
+    "keywords": [
+        "telegram",
+        "channel",
+        "messages",
+        "search",
+        "bot"
+    ],
+    "repository": "https://github.com/LazyDeveloperr/LazyUrlHunterrBOT",
+    "website": "https://telegram.me/LazyDeveloper",
+    "success_url": "https://telegram.me/LazyDeveloper",
+    "env": {
+        "API_ID": {
+            "description": "If you are new user then Get this value from my.telegram.org else get it from @TgApiextractorBot"
+        },
+        "API_HASH": {
+            "description": "If you are new user then Get this value from my.telegram.org else get it from @TgApiextractorBot"
+        },
+        "USER_SESSION_STRING": {
+            "description": "Get this from @SessionStringGeneratorZBot"
+        },
+        "BOT_SESSION_NAME": {
+            "description": "Any Session Name for Bot."
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather"
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Leave this Empty."
+        },
+        "BOT_OWNER": {
+            "description": "Bot Owner UserID"
+        },
+        "DATABASE_URL": {
+            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -1001669443507",
+            "required": false
+        },
+        "CHANNEL_ID": {
+            "description": "Channel ID for Searching Messages.( same as Database Channel of LazyPrincessBOT )"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
