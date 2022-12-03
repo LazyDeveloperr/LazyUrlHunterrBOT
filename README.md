@@ -39,7 +39,6 @@ You can deploy this bot anywhere.
 
 <details><summary>Deploy To Koyeb</summary>
  <p>
-   <i>Still working on it... 😕</i>
  <br>
  <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/LazyUrlHunterrBOT&branch=main&name=lazyhunterbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
  </p>
@@ -54,7 +53,6 @@ You can deploy this bot anywhere.
 </p>
 </details>
 
-<details>
 <p>
 <pre>
 git clone https://github.com/LazyDeveloperr/LazyUrlHunterrBOT
@@ -64,7 +62,6 @@ Edit configs.py with variables as given below then run bot
 python3 main.py
 </pre>
 </p>
-</details>
 
 ## Support
 [![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
