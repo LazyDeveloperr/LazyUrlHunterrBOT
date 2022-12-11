@@ -29,7 +29,7 @@ async def start_handler(_, event: Message):
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
                                     [InlineKeyboardButton("🔺 Donate us 🔺", url="https://p.paytm.me/xCTH/vo37hii9")],
-                                    [InlineKeyboardButton("⚡️ LazyDeveloper ⚡️", url="https://t.me/LazyDeveloper")],
+                                    [InlineKeyboardButton("⚡️ LazyDeveloper ⚡️", url="https://t.me/Skcreator_7")],
                                     [InlineKeyboardButton("🤒Help", callback_data="Help_msg"),
                                     InlineKeyboardButton("🦋About", callback_data="About_msg")]]))
 
@@ -38,8 +38,8 @@ async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Updates", url="https://t.me/LazyDeveloper"),
-             InlineKeyboardButton("Support Group", url="https://t.me/LazyPrincessSupport"), 
+            [InlineKeyboardButton("Updates", url="https://t.me/Skcreator_7"),
+             InlineKeyboardButton("Support Group", url="https://t.me/Skcreator7"), 
              InlineKeyboardButton("About", callback_data="About_msg")]
         ])
     )
@@ -77,10 +77,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://t.me/Skcreator_7")
 					],
 					[
-						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
+						InlineKeyboardButton("Connect Admin", url="https://t.me/Skcreator7"),
 						InlineKeyboardButton("🏠Home", callback_data="gohome")
 					]
 				]
@@ -94,10 +94,10 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[   InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("Updates Channel", url="https://t.me/LazyDeveloper")
+						InlineKeyboardButton("Updates Channel", url="https://t.me/Skcreator7")
 					], 
                     [
-						InlineKeyboardButton("Connect Admin", url="https://t.me/LazyDeveloper"),
+						InlineKeyboardButton("Connect Admin", url="https://t.me/Skcreator_7"),
 						InlineKeyboardButton("🏠Home", callback_data="gohome")
 					]
 				]
@@ -115,7 +115,7 @@ async def button(bot, cmd: CallbackQuery):
 						InlineKeyboardButton("About", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support Channel", url="https://t.me/LazyPrincessSupport"),
+						InlineKeyboardButton("Support Channel", url="https://t.me/Skcreator7"),
 					]
 				]
 			),
